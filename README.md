@@ -6,6 +6,38 @@ The Website Reviewer Agent Skill for AEO, GEO, SEO, UI/UX Psychology, and Direct
 
 An open source skill that transforms modern AI Agents into rigorous positioning consultants. It forces the agent to use native vision capabilities to evaluate cognitive load and verify Generative Engine Optimization (GEO) compatibility.
 
+## Installation
+
+### Prerequisites
+
+You need [Node.js](https://nodejs.org/) installed. It comes with `npx` built in.
+
+### Option 1: npx (All Agents)
+
+```bash
+npx "@opendirectory.dev/skills" install position-me --target claude
+```
+
+Supported `--target` values: `claude`, `gemini`, `codex`, `opencode`, `anti-gravity`, `openclaw`, `hermes`
+
+### Option 2: Native Plugin (Claude Code Only)
+
+Run these two commands inside your Claude Code terminal:
+
+```bash
+/plugin marketplace add Varnan-Tech/opendirectory
+/plugin install position-me@opendirectory-marketplace
+```
+
+### Option 3: Claude Desktop App
+
+**Step 1: Download**
+Click **Code → Download ZIP** on this repo's GitHub page.
+
+**Step 2: Install**
+1. Open Claude Desktop > Customize > Skills > **+** > Upload a skill
+2. Drop the downloaded zip or extracted folder
+
 ## Core Capabilities
 
 When invoked, the skill commands the AI agent to conduct an exhaustive teardown of the target website through a rigid protocol:
