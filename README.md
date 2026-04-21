@@ -25,7 +25,10 @@ Supported `--target` values: `claude`, `gemini`, `codex`, `opencode`, `anti-grav
 Run these two commands inside your Claude Code terminal:
 
 ```bash
+# Add the OpenDirectory marketplace
 /plugin marketplace add Varnan-Tech/opendirectory
+
+# Install a skill directly
 /plugin install position-me@opendirectory-marketplace
 ```
 
